@@ -82,11 +82,11 @@ AS监听目标端口，接受来自客户的信息。确认客户身份，生成
 
 ### 模拟票据服务器逻辑
 TGS监听目标端口，接受来自客户的信息。确认客户身份，生成票据，再给客户相应反馈
-代码实现[TGS.py]（https://github.com/BlueBlueScreen/Kerberos/blob/main/Kerberos/TGS.py）
+代码实现[TGS.py](https://github.com/BlueBlueScreen/Kerberos/blob/main/Kerberos/TGS.py)
 
 ### 模拟服务服务器逻辑
 V监听目标端口，接受来自客户的信息。确认客户身份，生成票据，再给客户相应反馈
-代码实现[V.py]（https://github.com/BlueBlueScreen/Kerberos/blob/main/Kerberos/V.py）
+代码实现[V.py](https://github.com/BlueBlueScreen/Kerberos/blob/main/Kerberos/V.py)
 
 ### 进行黄金票据攻击
 进行黄金票据攻击的原理是敌手拿到AS与TGS的共享密钥。在此之后敌手可以绕过AS生成任何用户的合法票据，通过TGS的验证，进而通过V的验证获取服务。
