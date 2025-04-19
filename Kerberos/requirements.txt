@@ -1,0 +1,4 @@
+pymongo==4.12.0
+bcrypt==4.3.0
+python-dotenv==1.1.0
+cryptography==44.0.2    # 可选（用于加密认证密钥）
